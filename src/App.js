@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { BrowserRouter as Router,Route,Switch} from 'react-router-dom';
+import { BrowserRouter,Route,Switch} from 'react-router-dom';
 import Home from './pages';
 import SigninPage from './pages/signin';
 import SignupPage from './pages/signup';
@@ -10,7 +10,7 @@ import Profile from './pages/Profile';
 
 function App() {
   return (
-      <Router>
+      <BrowserRouter basename= "/re-app">
         <Switch>
           <Route path='/' component={Home} exact />
           <Route path='/signup' component={SignupPage} exact />
@@ -19,7 +19,7 @@ function App() {
           <Route path='/contact' component={ContactUsPage} exact />
           <Route path="/analyse" exact element={<MainComponent />} />
         </Switch>
-      </Router>
+      </BrowserRouter>
       
   );
 }
