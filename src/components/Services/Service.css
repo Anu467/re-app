@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;500&family=Style+Script&display=swap');
+
+.Service1{
+    background-color: #1D1B1B;
+    height: 450px;	
+	display: flex;
+	
+}
+
+.Service1 .LeftContainer{
+    width: 35%;
+    height: 100%;
+    background-color: #EC4D37;
+}
+
+.LeftContainer h1{
+    color: #ffffff;
+	padding: 60px;
+	justify-content: center;
+	
+}
+
+.LeftContainer p{
+    color: #ffffff;
+	padding: 0px 25px;
+	font-size: 18px;
+}
+
+.RightContainer{
+	width: 400px;
+	height: 270px;
+	border-radius: 12px;
+	background-color: #1d1d1d;
+	box-shadow: -12px 12px 6px 0px rgba(0,0,0,0.75);
+	padding: 25px 25px 0px 25px;
+	width: 40%;
+    margin: auto;
+	display: flex;
+	flex-direction: column;
+}
+	
+
+.RightContainer h4{
+		text-align: center;
+		color: #ffffff;
+		font-size: 14px;
+		padding-bottom: 7px;
+		text-transform: uppercase;
+}
+
+.icon-set{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 10px;
+	padding-bottom: 8px;
+	border-bottom: 5px solid #c93825b8;
+}
+
+.icon-set span{
+	padding-left: 15px;
+	color: white;
+	text-transform: uppercase;
+	font-size: 15px;
+	
+}
+
+.icon-set svg{
+	transform: scale(2.25);
+	color: #ffffff;
+	padding: 5px;
+}
+
+.RightContainer button{
+	width: 250px;
+	height: 60px;
+	cursor: pointer;
+	background-color: #EC4D37;
+	border: none;
+	color: white;
+	font-size: 18px;
+	text-transform: uppercase;
+	border-radius: 5px;
+	margin: auto;
+}

@@ -1,0 +1,32 @@
+.outer-container {
+    height: 60vh;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+}
+
+.form-section {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.form-section2 {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.predicted-section {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: aliceblue;
+    width: 103%;
+    min-height: 106px;
+}
